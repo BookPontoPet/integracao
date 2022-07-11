@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book.Pet | Home</title>
+
+    <link rel="stylesheet" href="../../styles/home.css"/>
+
+  </head>
+  <body>
+    <nav id="navigation">
+      <div class="wrapper">
+
+        <a href="../../home.html">
+           <p class="logo"
+             style="color: black; font-size: 3.4rem;">
+             Book.<strong id="h1Strong" style="color: var(--rosa-hover); font-size: 3.4rem;">Pet</strong>
+           </p>
+        </a>
+
+        <div class="menu">
+          <ul>
+            <li>
+              <a onclick="closeMenu()" href="#services">Serviços
+              </a>
+            </li>         
+            <li>
+              <a onclick="closeMenu()" href="#about">Sobre
+              </a>
+            </li>    
+            <li>
+              <a onclick="closeMenu()" href="#home">Blog 
+              </a>
+            </li>
+            <li>
+              <a onclick="closeMenu()" href="#home">Manifestos 
+              </a>
+            </li>
+          </ul>
+
+          <a class="button" onclick="closeMenu()" href="pages/login/login.html">
+            Entrar
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a target="_blank" href="https://www.instagram.com/bookpontopet/">
+                <img src="../../icones/instagram.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="#">
+                <img src="../../icones/facebook.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="#">
+                <img src="../../icones/youtube.svg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <button aria-expanded="false" aria-label="Abrir menu"
+          onclick="openMenu()" class="open-menu">
+          <img src="../../icones/abre-menu.svg" alt="">
+        </button>
+
+        <button aria-expanded="true" aria-label="Fechar menu"
+          onclick="closeMenu()" class="close-menu">
+          <img src="../../icones/fecha-menu.svg" alt="">
+        </button>
+        
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+
+            <h1>
+              Essa página ainda está em contrução 
+            </h1> 
+
+            <div class="content">
+               <a class="button"  href="../../home.html">
+                 Pagina inicial
+               </a>
+
+               <a class="button"  href="escolher-experiencia/escolher-experiencia.html">
+                  escolha experiencia
+                </a>
+
+               </section><!-- Home -->
+               
+               <!--
+                  <section id="formulariosDeCadastro" class="formulariosDeCadastro">
+   
+                     <div class="ficha-de-cadastro"> 
+                        <h3>
+                           Dados do Usuário
+                        </h3>
+                        <ul class="dados-usuario">
+                           <li>
+                              <label for="nome">Nome: </label>
+                              <input type="text" name="nome" placeholder="Digite seu nome completo" required>
+                           </li>
+                           <li>
+                              <label for="nome">E-mail: </label>
+                              <input name="email" type="email" placeholder="Digite seu e-mail" required>
+                           </li>
+                           <li>
+                              <label for="celular">Celular: </label>
+                              <input name="celular" type="text" placeholder="number" placeholder="(00) 0000-0000" required>
+                           </li>
+                           <li>
+                              <label for="cnpj">Cpf:  </label>
+                              <input name="cnpj" type="number" placeholder=" 000000-0" required>
+                              </li>
+                           <li>
+                              <label for="cep">Cep: </label>
+                              <input name="cep" type="text" placeholder="Digite seu cep" required>
+                              <p>
+                                 <a target="_blank" href="https://buscacepinter.correios.com.br/app/endereco/index.php">
+                                    nao sei meu cep
+                                 </a>
+                              </p>
+                           </li>
+                        </ul>
+                        <h3>
+                           Dados do seu Pet
+                        </h3>
+                        <ul class="dados-usuario">
+                           <li>
+                              <label for="nome">Nome: </label>
+                              <input type="text" name="nome" placeholder="Digite o nome do seu pet" required>
+                           </li>
+                           <li>
+                              <label for="idade">Idade: </label>
+                              <input name="idade" type="number" placeholder="Digite a idade do seu pet" required>
+                           </li>
+                           <li>
+                              <label for="peso">Peso: </label>
+                              <input name="peso" type="number" placeholder="Em Kg" required>
+                           </li>
+                           <li>
+                              <label for="raaa">Raça:  </label>
+                              <input name="raca" type="text" placeholder="Informe a raça do seu pet" required>
+                              </li>
+                        </ul>        
+                     </div>ficha-de-cadastro  
+
+                     <a onclick="feedbackDoPlano()" class="btn-geral btn-envio" type="submit">
+                       ENVIAR
+                     </a>
+                  </section>
+               -->
+              <!-- section formularios de Cadastro -->
+                
+
+             </div>
+
+             <style>
+               h1{
+                  text-align: center;
+               }
+               .content
+               {
+                  text-align: center;
+                  padding-left: 3rem;
+                  display: flex;
+                  flex-direction: row;
+                  gap: 4rem;
+               }
+               .button
+               {
+                  border-color: var(--rosa-hover);
+               }
+
+             </style>
+
+          </header>
+
+        <div class="col-b">
+          <img
+            src=""
+            alt=""/>
+        </div>
+        
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrapper">
+        <div class="col-a">
+          <a class="logo" href="#home">
+            <h2>Book.Pet</h2>
+          </a>
+          <p>
+            ©2022 Book.Pet, todos os direitos reservados.
+          </p>
+        </div>
+
+        <div class="col-b">
+          <ul class="social-links">
+            <li>
+              <a target="_blank" href="https://www.instagram.com/bookpontopet/">
+                <img src="../../icones/instagram.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://facebook.com/maykbrito">
+                <img src="../../icones/facebook.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://youtube.com/maykbrito">
+                <img src="../../icones/youtube.svg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <a id="backToTopButton" href="#navigation">
+      <img src="icones/btn-top.svg" alt="">
+    </a>
+
+    <!-- ScrollReaveal Lib -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="../../main.js"></script>
+  </body>
+</html>

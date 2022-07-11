@@ -1,0 +1,33 @@
+
+/*=== SERVICES =================================*/
+#services header h2 
+{
+  color: var(--rosa-hover);
+  margin-bottom: 3rem;
+}
+#services .cards 
+{
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+#services .card 
+{
+  padding: 2.4rem;
+  text-align: left;
+
+  background: white;
+
+  border: 1px solid var(--rosa-normal);
+  border-radius: 0.6rem;
+}
+#services .card h3 
+{
+  color: var(--rosa-normal);
+  margin-block: 1.6rem;
+}
+#services h4 
+{
+  color: black;
+  margin-bottom: 3rem;
+}

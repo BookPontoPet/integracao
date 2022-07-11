@@ -1,0 +1,49 @@
+
+/*=== CONTACT =================================*/
+#contact {
+  margin-top: -0rem;
+   text-align: left;
+ }
+ 
+ #contact header {
+   margin-bottom: 3.2rem;
+ }
+ 
+ #contact ul {
+   display: flex;
+   flex-direction: column;
+   gap: 1.6rem;
+ 
+   margin-bottom: 3.2rem;
+ }
+ 
+ #contact ul li {
+   display: flex;
+   align-items: center;
+   gap: 0.8rem;
+ }
+ 
+ #contact iframe
+  {
+    margin-top: 2rem;
+    width: 45rem;
+    height: 28rem;
+  }
+
+  
+/* troca de icones do whatsapp */
+.whatsapp-rosa
+{
+  visibility: visible;
+}
+.button:hover .whatsapp-rosa{
+  visibility: collapse;
+}
+
+.whatsapp-branco
+{
+  visibility: hidden;
+}
+.button:hover .whatsapp-branco{
+  visibility: visible;
+}

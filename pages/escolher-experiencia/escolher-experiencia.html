@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title> Boook.ponto | Experiência </title>
+
+   <!-- importa styles geral -->
+   <link rel="stylesheet" href="../../styles/style.css">
+   <link rel="stylesheet" href="escolher-experiencia.css">
+
+</head>
+
+<body id="escolher-experiencia">
+   <nav id="navigation">
+      <a href="../../home.html">
+        <div class="wrapper">
+          <p class="logo"
+            style="color: black; font-size: 3.4rem;">
+            Book.<strong id="h1Strong" style="color: var(--rosa-hover); font-size: 3.4rem;">Pet</strong>
+          </p>
+      </a>
+
+        <div class="menu">
+          <ul>
+            <li>
+              <a onclick="closeMenu()" href="../../home.html#services">Serviços
+              </a>
+            </li>         
+            <li>
+              <a onclick="closeMenu()" href="../../home.html#about">Sobre
+              </a>
+            </li>    
+            <li>
+              <a onclick="closeMenu()" href="../../home.html#home">Blog 
+              </a>
+            </li>
+            <li>
+              <a onclick="closeMenu()" href="../../home.html#home">Manifestos 
+              </a>
+            </li>
+          </ul>
+
+          <a class="button" onclick="closeMenu()" href="../pagina-em-contrucao.html">
+            Entrar
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a target="_blank" href="https://www.instagram.com/bookpontopet/">
+                <img src="icones/instagram.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="#">
+                <img src="icones/facebook.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="#">
+                <img src="icones/youtube.svg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <button aria-expanded="false" aria-label="Abrir menu"
+          onclick="openMenu()" class="open-menu">
+          <img src="../../icones/abre-menu.svg" alt="">
+        </button>
+
+        <button aria-expanded="true" aria-label="Fechar menu"
+          onclick="closeMenu()" class="close-menu">
+          <img src="../../icones/fecha-menu.svg" alt="">
+        </button>
+        
+      </div>
+    </nav>
+   
+    <section id="services">
+      <div class="wrapper">
+        <header>
+          <h2>Escolha sua experiência </h2>
+          <h4>Veja como nossa plataforma pode te ajudar a ajudar outras pessoas</h4>
+        </header>
+
+        <div class="content">
+          <div class="cards">
+            
+            <a class="card" href="../pagina-em-contrucao.html">
+              <div >
+                  <h3>Usuário</h3>
+                </div>
+            </a>
+
+            <a class="card"href="../planos/planos.html">
+            <div >
+                 <h3>Produtos & Serviços</h3>
+                </div>
+            </a>
+
+            <a class="card" href="../pagina-em-contrucao.html">
+            <div >
+               <h3>Projetos Sociais e Ongs</h3>
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- ScrollReaveal Lib -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src=""></script>
+    <script src="../../main.js"></script>
+
+</body>
+</html>

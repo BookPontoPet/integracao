@@ -1,0 +1,77 @@
+
+
+@import "objetos.css";
+@import"header.css";
+@import "home.css";
+
+
+/* importando a foonte Cera que será usada em todo projeto */
+@font-face 
+{
+  font-family: 'Cera';
+  src: url(../fonts/TypeMatesCeraRoundProMedium.otf) 
+  format('opentype') ;    
+}
+/*=== GERAL ======================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+:root 
+{
+  --transicao-padrao: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+   /* Variaveis de cor */
+   --rosa-hover: #f708bb;
+   --rosa-normal: hsl(315, 100%, 69%);
+   --rosa-light: hsl(340, 88%, 90%);
+   
+  --hue: 190;
+  --primary-color: var(--rosa-hover);
+  --headline: hsl(210, 11%, 15%);
+  --paragraph: hsl(210, 9%, 31%);
+  
+  --brand-beige: hsl(39, 100%, 97%);
+  --brand-light: var(--rosa-light);
+    
+  font-size: 62.5%; /* 1rem = 10px */
+  
+  --nav-height: 7.2rem;
+  font-family: 'Cera';
+}
+
+html {
+  /* chrome://flags/#smooth-scrolling */
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Cera';
+  font-size: 1.6rem;
+
+  text-align: center;
+
+  overflow: overlay;
+
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+

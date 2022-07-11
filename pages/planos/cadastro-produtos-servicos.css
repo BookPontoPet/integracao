@@ -1,0 +1,69 @@
+
+
+@import "../../styles/style.css";
+
+section.formulariosDeCadastro
+{
+   visibility: hidden;
+   justify-content: center;
+}
+section.formulariosDeCadastro ul
+{ 
+   transform: translateX(-30rem);
+   margin-top: -28rem;
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   align-items: center;
+}
+section.formulariosDeCadastro h2
+{
+   transform:  translateX(-3rem);
+   margin-bottom: 0rem;
+   color: var(--rosa-hover);
+}
+section.formulariosDeCadastro li 
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+   color: var(--rosa-hover);
+   align-items: flex-start;
+}
+section.formulariosDeCadastro li p a
+{
+   text-decoration: underline;
+   color: var(--rosa-hover);
+}
+section.formulariosDeCadastro li input
+{
+   border: 1px solid var(--rosa-normal);
+   border-radius: 0.4rem;
+   width: 30rem;
+   height: 4rem;
+}
+section.formulariosDeCadastro li input:focus
+{
+   outline: none;
+   border: 2px solid var(--rosa-hover);
+}
+section.formulariosDeCadastro li input::placeholder
+{
+   padding-left: 2rem;
+   color: var(--rosa-normal);
+}
+section.formulariosDeCadastro a
+{
+   margin-top: 4rem;
+}
+
+
+
+
+
+
+
+
+

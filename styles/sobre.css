@@ -1,0 +1,32 @@
+
+/*=== SOBRE =================================*/
+section#about 
+{
+  margin-top: 0rem;
+  text-align: left;
+  background-color: white;
+}
+section#about .col-a
+{
+  margin-top: 2rem;
+}
+#about header h2 
+{
+  align-self: flex-start;  
+  margin-bottom: 2.4rem;
+}
+#about header h4 
+{
+  margin-bottom: 2.4rem;
+}
+
+#about .content p 
+{
+  margin-top: 2.4rem;
+  margin-bottom: 6rem;
+}
+ 
+#about img
+{
+  border-radius: 0.5rem;
+}

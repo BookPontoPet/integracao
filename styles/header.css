@@ -1,0 +1,28 @@
+
+/*=== NAVIGATION =================================*/
+nav {
+   display: flex;
+   height: 7rem;
+   /*position: fixed;*/
+   top: 0;
+   width: 100vw;
+   z-index: 100;
+ }
+ 
+ nav .wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+ nav button {
+   background: none;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ nav .menu,
+ nav .close-menu {
+   position: fixed;
+ }
+ 

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title> Boook.ponto | Planos </title>
+
+   <!-- importa styles geral -->
+   <link rel="stylesheet" href="../../styles/style.css">
+   <link rel="stylesheet" href="cadastro-produtos-servicos.css">
+   <link rel="stylesheet" href="planos.css">
+   <style>
+      body
+      {
+         background-color:  white;
+      }
+   </style>
+   
+</head>
+
+<body id="planos">
+   
+   <nav id="navigation">
+      <div class="wrapper">
+
+        <a href="../../home.html">
+           <p class="logo"
+             style="color: black; font-size: 3.4rem;">
+             Book.<strong id="h1Strong" style="color: var(--rosa-hover); font-size: 3.4rem;">Pet</strong>
+           </p>
+        </a>
+
+        <div class="menu">
+          <ul>
+            <li>
+              <a onclick="closeMenu()" href="#services">Serviços
+              </a>
+            </li>         
+            <li>
+              <a onclick="closeMenu()" href="#about">Sobre
+              </a>
+            </li>    
+            <li>
+              <a onclick="closeMenu()" href="#home">Blog 
+              </a>
+            </li>
+            <li>
+              <a onclick="closeMenu()" href="#home">Manifestos 
+              </a>
+            </li>
+          </ul>
+
+          <a class="button" onclick="closeMenu()" href="pages/login/login.html">
+            Entrar
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a target="_blank" href="https://www.instagram.com/bookpontopet/">
+                <img src="../../icones/instagram.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="#">
+                <img src="../../icones/facebook.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="#">
+                <img src="../../icones/youtube.svg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <button aria-expanded="false" aria-label="Abrir menu"
+          onclick="openMenu()" class="open-menu">
+          <img src="../../icones/abre-menu.svg" alt="">
+        </button>
+
+        <button aria-expanded="true" aria-label="Fechar menu"
+          onclick="closeMenu()" class="close-menu">
+          <img src="../../icones/fecha-menu.svg" alt="">
+        </button>
+        
+      </div>
+   </nav>
+
+   <section>
+      <div class="cards">
+
+         <a onclick="exibeCadastroBasico()">
+            <div id="basico"  class="card">
+               <h3 class="card-title">Basico</h3>
+               <ul>
+                  <li>
+                     <img class="icones" src="../../icones/sucess.svg">
+                     <p>Loja virtual </p>
+                  </li>
+                  <li>
+                     <img class="icones" src="../../icones/sucess.svg">
+                     <p>Catálogo de 200 produtos </p>    
+                  </li>
+                  <li>
+                     <img class="icones" src="../../icones/sucess.svg">
+                     <p>Realização de consultas </p>    
+                  </li>
+                  <li>
+                     <img class="icones" src="../../icones/sucess.svg">
+                     <p>3mil divulgações por mes </p>    
+                  </li>
+               </ul>
+               <h4> R$ 20 / mês</h4>
+               <a onclick="exibeCadastroBasico()" class="btn-selecionar" id="btn-basico-selecionado"> 
+                  Selecionar 
+               </a>
+            </div><!-- div card 1-->
+         </a><!-- card 1 -->
+
+         <a onclick="exibeCadastroMedio()"  >
+            <div id="medio"  class="card">
+               <h3 class="card-title">Médio</h3>
+               <ul>
+                  <li>
+                     <img class="icones" src="../../icones/sucess.svg">
+                     <p>Loja virtual </p>
+                  </li>
+                  <li>
+                     <img class="icones" src="../../icones/sucess.svg">
+                     <p>Catálogo de 900 produtos</p>    
+                  </li>
+                  <li>
+                     <img class="icones" src="../../icones/sucess.svg">
+                     <p>Realização de consultas </p>    
+                  </li>
+                  <li>
+                     <img class="icones" src="../../icones/sucess.svg">
+                     <p> 9mil divulgações por mes </p>    
+                  </li>
+               </ul>
+               <h4> R$ 60 / mês</h4>
+               <a onclick="exibeCadastroMedio()" class="btn-selecionar" id="btn-medio-selecionado"> 
+                  Selecionar 
+               </a>
+            </div><!-- div card 2-->
+         </a><!-- card 2 -->
+
+         <a onclick="exibeCadastroAvancado()"  >
+            <div id="avancado" class="card">
+               <h3 class="card-title">Avançado</h3>
+               <ul>
+                  <li>
+                     <img class="icones" src="../../icones/sucess.svg">
+                     <p>Loja virtual </p>
+                  </li>
+                  <li>
+                     <img class="icones" src="../../icones/sucess.svg">
+                     <p>Catálogo ilimitado </p>    
+                  </li>
+                  <li>
+                     <img class="icones" src="../../icones/sucess.svg">
+                     <p>Realização de consultas </p>    
+                  </li>
+                  <li>
+                     <img class="icones" src="../../icones/sucess.svg">
+                     <p>18mil divulgações por mes </p>    
+                  </li>
+               </ul>
+               <h4> R$ 90 / mês </h4>
+               <a onclick="exibeCadastroAvancado()" class="btn-selecionar" id="btn-avancado-selecionado" > 
+                  Selecionar 
+               </a>
+            </div><!-- div card 3-->
+         </a><!-- card 3 -->
+         
+      </div><!-- div cards-->
+   </section><!-- home --> <br>
+
+   <section id="formulariosDeCadastro"                      class="formulariosDeCadastro">
+
+      <div class="ficha-de-cadastro"> 
+         <form action="">
+            <h2>
+               Dados da Organização
+            </h2>
+            <br>
+               <label for="nome">Nome: </label>
+               <input type="text" name="nome" class="nome" placeholder="Digite seu nome completo" required>
+            <br>
+               <label for="nome">E-mail: </label>
+               <input name="email" type="email" class="email" placeholder="Digite seu e-mail" required>
+            <br>
+               <label for="celular">Celular: </label>
+               <input name="celular" type="number" class="celular" placeholder="(00) 0000-0000" required>
+            <br>
+               <label for="cnpj">Cnpj ou Cpf:  </label>
+               <input name="cnpj" type="number" class="cnpj"  placeholder=" 000000-0" required>
+            <br> 
+               <label for="cep">Cep: </label>
+               <input name="cep" type="text" class="cep"  placeholder="Digite seu cep" required>
+               <p>
+                  <a target="_blank" href="https://buscacepinter.correios.com.br/app/endereco/index.php">
+                     nao sei meu cep
+                  </a>
+               </p>
+            <br>            
+               <button class="button" type="submit">
+                  enviar
+               </button>
+            
+         </form>
+      </div><!-- ficha-de-cadastro -->
+
+
+      
+
+   </section>
+
+   <!-- importa scripts geral -->
+   <script src="scripts-planos.js"></script>
+   <script src="planos.js"></script>
+
+</body>
+</html>

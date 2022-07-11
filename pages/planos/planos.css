@@ -1,0 +1,109 @@
+
+
+
+nav div a h2 {
+   color: black;
+}
+.cards    
+{
+   align-items: center;
+   justify-content: center;
+   margin-top: 0rem;
+   display: flex;
+   gap: 4rem;
+}
+.card-title
+{
+   color: black;
+}
+.card
+{
+   align-items: center;
+   padding: 1rem;
+   padding-top: 1rem;
+   border-radius: 0.5rem;
+   width: 26rem;
+   height: 36rem;
+   background-color: var(--rosa-normal);
+   transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.card:hover  {
+   transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+   transform: scale(1.1);
+}
+.card:hover h3, 
+.card:hover h4, 
+.card:hover p,
+.card:hover .btn-selecionar 
+{
+   color: white;
+}
+.card ul 
+{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   margin-bottom: 2rem;
+}
+.card li {
+   display: flex;
+   flex-direction: row;
+}
+.card ul li p 
+{
+   color: black;
+}
+.icones
+{
+   max-width: 2rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+}
+.card h4
+{
+   font-size: 3rem;
+   color: black;
+   margin-bottom: 3rem;
+}
+.cards a
+{
+   cursor: pointer;
+}
+a.btn-selecionar  
+{
+   cursor: pointer;
+   text-align: center;
+   border: 1px solid black;
+   padding: 1rem;
+   padding-left: 8rem;
+   padding-right: 8rem;
+   color: black;
+}
+.cards:focus a.btn-selecionar
+{
+   padding-left: 4rem;
+   padding-right: 4rem;
+   background-color: green;
+   border-color: white;
+}
+.card:hover a.btn-selecionar 
+{
+   background-color: var(--rosa-hover);
+   border-color: white;
+}
+
+ /*===  RESPONSIVO =================*/
+@media (max-width: 1023px) 
+{
+   .cards{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-bottom: 28rem;
+   }
+   section.formulariosDeCadastro
+   {
+      margin-left: 60%;
+   }
+}
+
