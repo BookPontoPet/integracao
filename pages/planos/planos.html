@@ -25,7 +25,7 @@
    <nav id="navigation">
       <div class="wrapper">
 
-        <a href="../../home.html">
+        <a href="../../index.html">
            <p class="logo"
              style="color: black; font-size: 3.4rem;">
              Book.<strong id="h1Strong" style="color: var(--rosa-hover); font-size: 3.4rem;">Pet</strong>
@@ -52,7 +52,7 @@
             </li>
           </ul>
 
-          <a class="button" onclick="closeMenu()" href="pages/login/login.html">
+          <a class="button" onclick="closeMenu()" href="../pagina-em-contrucao.html">
             Entrar
           </a>
 
@@ -180,41 +180,35 @@
 
    <section id="formulariosDeCadastro"                      class="formulariosDeCadastro">
 
-      <div class="ficha-de-cadastro"> 
-         <form action="">
-            <h2>
-               Dados da Organização
-            </h2>
-            <br>
-               <label for="nome">Nome: </label>
-               <input type="text" name="nome" class="nome" placeholder="Digite seu nome completo" required>
-            <br>
-               <label for="nome">E-mail: </label>
-               <input name="email" type="email" class="email" placeholder="Digite seu e-mail" required>
-            <br>
-               <label for="celular">Celular: </label>
-               <input name="celular" type="number" class="celular" placeholder="(00) 0000-0000" required>
-            <br>
-               <label for="cnpj">Cnpj ou Cpf:  </label>
-               <input name="cnpj" type="number" class="cnpj"  placeholder=" 000000-0" required>
-            <br> 
-               <label for="cep">Cep: </label>
-               <input name="cep" type="text" class="cep"  placeholder="Digite seu cep" required>
-               <p>
-                  <a target="_blank" href="https://buscacepinter.correios.com.br/app/endereco/index.php">
-                     nao sei meu cep
-                  </a>
-               </p>
-            <br>            
-               <button class="button" type="submit">
-                  enviar
-               </button>
-            
-         </form>
-      </div><!-- ficha-de-cadastro -->
+      <form action="">
+         <h2>
+            Dados da Organização
+         </h2>
 
+         <p >  Nome: </p>
+         <input type="text" name="nome" class="nome" placeholder="Digite seu nome completo" required>
 
-      
+         <p >  E-mail: </p>
+         <input name="email" type="email" class="email" placeholder="Digite seu e-mail" required>
+
+         <p >  Celular: </p>
+         <input name="celular" type="number" class="celular" placeholder="(00) 0000-0000" required>
+
+         <label> Cnpj ou Cpf:  </label>
+         <input name="cnpj" type="number" class="cnpj"  placeholder=" 000000-0" required>
+
+         <p >  Cep: </p>
+         <input name="cep" type="text" class="cep"  placeholder="Digite seu cep" required>
+         
+            <a target="_blank" href="https://buscacepinter.correios.com.br/app/endereco/index.php">
+            nao sei meu cep
+            </a>
+         
+
+         <button class="button" type="submit">
+            enviar
+         </button>         
+      </form>   
 
    </section>
 
